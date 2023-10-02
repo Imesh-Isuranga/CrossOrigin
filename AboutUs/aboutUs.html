@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>CrossOrigin</title>
+    <link rel="stylesheet" href="aboutUs.css">
+    <link rel="stylesheet" type="text/css" href="../Footer/footer.css">
+
+    <!--boostrap---------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--googlefonts------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--nav-bar--------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light" style="position: absolute; z-index: 1000; width: 100vw">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/CompanyLogoTransparent(white).png" alt=""  class="d-inline-block align-text-center">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="context" style="color: white"><ion-icon name="menu-outline"></ion-icon></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
+                <a class="nav-link text-white" href="../Services/services.html">Services</a>
+                <a class="nav-link text-white" href="../Products/products.html">Products</a>
+                <a class="nav-link text-white" href="../AboutUs/aboutUs.html">About Us</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--logo--------------------------------------------------------------------------------------------->
+<div class="top-wrap">
+    <p class="aboutUsTxt">About Us</p>
+</div>
+
+<!--Top--------------------------------------------------------------------------------------------->
+<div class="logo d-flex align-items-center justify-content-center" style="padding: 40px 40px 80px 40px">
+    <img src="../assets/CompanyLogoTransparent(Small).png" alt="" style="width: 60vw; height: auto">
+</div>
+
+<!--aboutUs--------------------------------------------------------------------------------------------->
+<div class="aboutUs row">
+    <div class="me-img col-12 col-sm-12 col-md-4 col-lg-4">
+        <img src="../assets/AboutUs/me.jpg" alt="" style="width: 100%; height: auto;">
+    </div>
+    <div class="aboutUsdesc col-12 col-sm-12 col-md-8 col-lg-8">
+        <p>At CrossOrigin, we specialize in crafting innovative solutions tailored to meet your digital needs. With expertise in software development, mobile app creation, and web development, we are committed to delivering cutting-edge technology that empowers businesses to thrive in the digital landscape. Our dedicated team of professionals combines creativity and technical proficiency to turn your ideas into robust, user-friendly applications. We take pride in our passion for crafting seamless digital experiences that make a difference. Join us on this journey, and let's build the future together.</p>
+    </div>
+</div>
+
+<!--footer--------------------------------------------------------------------------------------------->
+<div id="loadFooter"></div>
+<!-- Additional content specific to page 2 -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $('#loadFooter').load('../Footer/footer.html');
+    });
+</script>
+
+
+
+<!--Icons--------------------------------------------------->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

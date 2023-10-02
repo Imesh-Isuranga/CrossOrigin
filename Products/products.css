@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.revealProductstop{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+
+.revealProductstop.active{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+/*product-top---------------------------------------------------------*/
+.top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: linear-gradient(to right, #4961ff, #002f9c);
+    height: 50vh;
+    width: 100vw;
+}
+
+.productsTxt{
+    font-family: 'Overpass', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/*aboutUs---------------------------------------------------------*/
+.aboutUsdesc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUsdesc p{
+    padding: 40px;
+    font-size: 20px;
+}
+
+/*products-cards---------------------------------------------------------*/
+.card{
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-img-top{
+    width: 100px;
+    height: 200px;
+}
+
+.card-img-top:hover{
+    animation: scaleAnimation 1s forwards;
+}
+
+
+
+
+@keyframes scaleAnimation {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+
+
+.card-title{
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .navbar-toggler span{
+        width: 15px;
+        height: 17px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: auto;
+    }
+
+    /*product-top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .productsTxt{
+        font-family: 'Overpass', sans-serif;
+        font-size: 40px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+
+
+    /*aboutUs---------------------------------------------------------*/
+    .aboutUsdesc p{
+        padding: 20px;
+        font-size: 15px;
+    }
+
+    /*products-cards---------------------------------------------------------*/
+    .card{
+        margin: 10px;
+    }
+
+    .card-title{
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar-toggler span{
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+
+    /*product-top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .productsTxt{
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*aboutUs---------------------------------------------------------*/
+    .aboutUsdesc p{
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    /*products-cards---------------------------------------------------------*/
+    .card{
+        margin: 5px;
+    }
+
+    .card-img-top{
+        width: 40px;
+        height: auto;
+    }
+
+    .card-title{
+        font-size: 12px;
+    }
+
+
+}

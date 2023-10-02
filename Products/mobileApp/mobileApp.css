@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+
+/*top---------------------------------------------------------*/
+.top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: linear-gradient(to right, #4961ff, #002f9c);
+    height: 50vh;
+    width: 100vw;
+}
+
+.desktopSoftware{
+    font-family: 'Overpass', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/*mobProj---------------------------------------------------------*/
+.projects{
+    width: 100vw;
+    height: auto;
+}
+
+.proj-1-title p{
+    padding: 10px;
+    font-size: 45px;
+}
+
+.btn.btn-warning{
+    width: auto ;
+    font-size: 20px ;
+}
+
+.carousel-item img{
+    height: 450px;
+}
+
+.qrcode-StressDucer img{
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar-toggler span{
+        width: 15px;
+        height: 17px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .desktopSoftware{
+        font-family: 'Overpass', sans-serif;
+        font-size: 40px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*mobProj---------------------------------------------------------*/
+    .proj-1-title p{
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .btn.btn-warning{
+        width: auto ;
+        font-size: 13px ;
+    }
+
+    .carousel-item img{
+        height: 350px;
+    }
+
+    .qrcode-StressDucer img{
+        margin-left: 40px;
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar-toggler span{
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .desktopSoftware{
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*mobProj---------------------------------------------------------*/
+    .proj-1-title p{
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .btn.btn-warning{
+        width: auto ;
+        font-size: 10px ;
+    }
+
+    .carousel-item img{
+        height: 200px;
+    }
+
+    .qrcode-StressDucer img{
+        margin-left: 30px;
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+}

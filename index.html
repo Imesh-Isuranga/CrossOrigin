@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>CrossOrigin</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="Footer/footer.css">
+
+    <!--boostrap---------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--googlefonts------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<!--nav-bar--------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-expand-lg navbar-light" style="position: absolute; z-index: 1000; width: 100vw">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="assets/CompanyLogoTransparent(white).png" alt=""  class="d-inline-block align-text-center">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="context" style="color: white"><ion-icon name="menu-outline"></ion-icon></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                <a class="nav-link text-white" href="#services">Services</a>
+                <a class="nav-link text-white" href="Products/products.html">Products</a>
+                <a class="nav-link text-white" href="AboutUs/aboutUs.html">About Us</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<!--slider--------------------------------------------------------------------------------------------->
+<div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <div class="overlay">
+                <img src="assets/Home/1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-flex align-items-center justify-content-center flex-column">
+                <p class="carousel-inner-text">WELCOME to CROSSoRIGIN</p>
+                <a href="#loadFooter" class="btn btn-info bg-light text-primary" type="button">Contact Us</a>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <div class="overlay">
+                <img src="assets/Home/2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-flex align-items-center justify-content-center flex-column">
+                <p class="carousel-inner-text">We are team of developers</p>
+                <a href="#loadFooter" class="btn btn-info bg-light text-primary" type="button">Contact Us</a>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="overlay">
+                <img src="assets/Home/3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-caption d-flex align-items-center justify-content-center flex-column">
+                <p class="carousel-inner-text">We are team of developers</p>
+                <a href="#loadFooter" class="btn btn-info bg-light text-primary" type="button">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev controlbtn" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" ></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next controlbtn" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!--text------------------------------------------------------------------------------------------------>
+
+<div class="main-service-title-sub reveal"><p><b>We create your Future</b></p></div>
+
+
+<!--services--------------------------------------------------------------------------------------------->
+<div id="services" class="services">
+    <div class="main-service-title reveal"><p><b>Quality, punctuality, excellence</b></p></div>
+    <div class="card-service">
+        <div class="row common-innercard-service card-service-1 col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card-1 col-12 col-sm-6 col-md-4 col-lg-4 reveal">
+                <div class="commoncard">
+                    <a href="Products/mobileApp/mobileApp.html" class="commoncard">
+                        <div class="card-img">
+                            <img src="assets/Products/card/mobileAppDevelopment.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </a>
+                    <div class="card-body ">
+                        <h5 class="card-title">Mobile App Development</h5>
+                        <p class="card-text">Convert your idea into the mobile app with our amazing service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-2 col-12 col-sm-6 col-md-4 col-lg-4 reveal">
+                <div class="commoncard">
+                    <a href="Products/desktopSoft/desktopSoft.html" class="commoncard">
+                        <div class="card-img">
+                            <img src="assets/Products/card/desktopApp.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Desktop Software Development</h5>
+                        <p class="card-text">We can bring your idea to the desktop</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row common-innercard-service card-service-2 col-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="card-3 col-12 col-sm-6 col-md-4 col-lg-4 reveal">
+                <div class="commoncard">
+                    <a href="Products/webApp/webApp.html" class="commoncard">
+                        <div class="card-img">
+                            <img src="assets/Products/card/webApplication.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Web Application Development</h5>
+                        <p class="card-text">Make your ideas more interesting way.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-4 col-12 col-sm-6 col-md-4 col-lg-4 reveal">
+                <div class="commoncard">
+                    <a href="Products/webSite/webSite.html" class="commoncard">
+                        <div class="card-img">
+                            <img src="assets/Products/card/websiteDevelopment.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">WebSite Development</h5>
+                        <p class="card-text">Responsive more interesting websites will help you to grow your business</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--text------------------------------------------------------------------------------------------------>
+
+<div class="main-service-title-sub reveal"><p><b>We are team of developers</b></p></div>
+
+<!--footer--------------------------------------------------------------------------------------------->
+<div id="loadFooter"></div>
+<!-- Additional content specific to page 2 -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $('#loadFooter').load('Footer/footer.html');
+    });
+</script>
+
+<script type="text/javascript">
+    window.addEventListener("scroll",reveal);
+
+    function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+        for (var i=0; i<reveals.length; i++){
+            var windowheight = window.innerHeight;
+            var revealtop = reveals[i].getBoundingClientRect().top;
+            var revealpoint = 150;
+
+            if(revealtop<windowheight-revealpoint){
+                reveals[i].classList.add('active')
+            }else{
+                reveals[i].classList.remove('active');
+            }
+        }
+    }
+</script>
+
+
+<!--Icons--------------------------------------------------->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

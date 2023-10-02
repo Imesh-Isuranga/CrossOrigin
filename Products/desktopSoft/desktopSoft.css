@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+
+/*top---------------------------------------------------------*/
+.top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: linear-gradient(to right, #4961ff, #002f9c);
+    height: 50vh;
+    width: 100vw;
+}
+
+.desktopSoftware{
+    font-family: 'Overpass', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/*deskProj---------------------------------------------------------*/
+.projects{
+    width: 100vw;
+    height: auto;
+}
+
+.proj-1-title p{
+    padding: 10px;
+    font-size: 45px;
+}
+
+.btn.btn-warning{
+    width: auto ;
+    font-size: 20px ;
+}
+@media (max-width: 768px) {
+
+    .navbar-toggler span{
+        width: 15px;
+        height: 17px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .desktopSoftware{
+        font-family: 'Overpass', sans-serif;
+        font-size: 40px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*deskProj---------------------------------------------------------*/
+    .proj-1-title p{
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .btn.btn-warning{
+        width: auto ;
+        font-size: 13px ;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar-toggler span{
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .desktopSoftware{
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*deskProj---------------------------------------------------------*/
+    .proj-1-title p{
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    .btn.btn-warning{
+        width: auto ;
+        font-size: 10px ;
+    }
+
+
+
+}

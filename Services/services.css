@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+
+/*top---------------------------------------------------------*/
+.top-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: linear-gradient(to right, #4961ff, #002f9c);
+    height: 50vh;
+    width: 100vw;
+}
+
+.servicesTxt{
+    font-family: 'Overpass', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+/*services---------------------------------------------------------*/
+.services{
+    width: 100vw;
+}
+
+.common{
+    margin: 20px 0 40px 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-title{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #031f63;
+}
+
+.service-title p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
+.desc p{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.list ul{
+    font-size: 20px;
+}
+
+.morebtn{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .navbar-toggler span{
+        width: 15px;
+        height: 17px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 40vh;
+        width: 100vw;
+    }
+
+    .servicesTxt{
+        font-family: 'Overpass', sans-serif;
+        font-size: 40px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+    /*services---------------------------------------------------------*/
+
+    .service-title p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+
+    .desc p{
+        font-family: 'Roboto', sans-serif;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .list ul{
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 480px) {
+
+    .navbar-toggler span{
+        width: 10px;
+        height: 12px;
+    }
+
+    .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+
+    /*top---------------------------------------------------------*/
+    .top-wrap{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background-image: linear-gradient(to right, #4961ff, #002f9c);
+        height: 30vh;
+        width: 100vw;
+    }
+
+    .servicesTxt{
+        font-family: 'Overpass', sans-serif;
+        font-size: 20px;
+        color: white;
+        padding-bottom: 40px;
+    }
+
+
+    /*services---------------------------------------------------------*/
+
+    .service-title p{
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 30px;
+    }
+
+    .desc p{
+        font-family: 'Roboto', sans-serif;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    .list ul{
+        font-size: 10px;
+    }
+
+}
