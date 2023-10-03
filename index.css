@@ -13,6 +13,7 @@ html{
     height: auto;
 }
 
+
 .carousel-inner-text{
     font-size: 60px;
     color: white;
@@ -20,7 +21,7 @@ html{
 }
 
 .carousel-caption{
-    height: 100vh;
+    height: 100%;
 }
 
 .overlay {
@@ -164,9 +165,6 @@ html{
         font-family: 'Ubuntu', sans-serif;
     }
 
-    .carousel-caption{
-        height: 100vh;
-    }
 
     .btn.btn-info.bg-light.text-primary {
         width: 150px ;
@@ -255,13 +253,6 @@ html{
         font-family: 'Ubuntu', sans-serif;
     }
 
-    .carousel-caption{
-        height: 50vh;
-    }
-
-    .carousel-inner img{
-        height: 50vh;
-    }
 
     .btn.btn-info.bg-light.text-primary {
         width: 90px ;
