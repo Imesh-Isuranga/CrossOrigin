@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -181,7 +182,7 @@ html{
     }
 
     .main-service-title-sub p{
-        font-size: 40px;
+        font-size: 35px;
         color: rgba(3, 31, 99, 0.53);
     }
 
@@ -276,7 +277,7 @@ html{
     }
 
     .main-service-title-sub p{
-        font-size: 30px;
+        font-size: 27px;
         color: rgba(3, 31, 99, 0.53);
     }
 
