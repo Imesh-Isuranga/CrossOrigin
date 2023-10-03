@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 html{
     scroll-behavior: smooth;
 }
@@ -98,7 +97,9 @@ html{
 /*text----------------------------------------------------------*/
 
 .main-service-title-sub{
+    background-color: #079b5e;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     height: 300px;
@@ -106,18 +107,34 @@ html{
 
 .main-service-title-sub p{
     font-size: 50px;
-    color: rgba(3, 31, 99, 0.53);
+    color: rgba(255, 255, 255, 0.53);
 }
 
 
 /*services----------------------------------------------------------*/
 
+.commoncard:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.46);
+}
+
+.card-img:hover{
+    animation: scaleAnimation 1s forwards;
+}
+
+@keyframes scaleAnimation {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.9);
+    }
+}
+
 .services{
-    background-image: linear-gradient(to right, rgba(1, 23, 147, 0.16), rgba(5, 9, 19, 0.19));
+    background-image: url('assets/banner.jpg');
     width: 100vw;
     display: flex;
     flex-direction: column;
-
 }
 
 .main-service-title{
@@ -133,52 +150,36 @@ html{
     color: rgba(116, 116, 116, 0.75);
 }
 
-.card-service{
+.scrollable-cards-container {
+    padding: 20px;
     display: flex;
-    flex-direction: column;
-    width: 100vw;
+    overflow-x: auto;
+    width: 100%;
 }
 
-.common-innercard-service{
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100vw;
-}
 
 .commoncard{
-    display: flex;
-    width: 600px;
-}
-
-.card-1,.card-3{
-    display: flex;
-    flex-direction: column;
-    align-self: self-start;
-}
-
-.card-2,.card-4{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 40px;
     display: flex;
     flex-direction: column;
-    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
-
-
-
-
-
-
-@media (max-width: 1427px) {
-    .commoncard{
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-    }
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
-
+.card-text{
+    padding: 20px;
+}
 
 
 
@@ -227,6 +228,7 @@ html{
 
     .main-service-title-sub{
         display: flex;
+        text-align: center;
         align-items: center;
         justify-content: center;
         height: 200px;
@@ -241,28 +243,8 @@ html{
     /*services----------------------------------------------------------*/
 
     .main-service-title p{
-        padding: 20px 20px 0 20px;
         font-size: 40px;
-        color: rgba(116, 116, 116, 0.75);
     }
-
-    .card-1,.card-3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-2,.card-4{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .commoncard{
-        display: flex;
-        width: 200px;
-    }
-
 
 }
 
@@ -291,23 +273,7 @@ html{
 
     /*----------------------------------------------------------*/
 
-    .card-1,.card-3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .card-2,.card-4{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .commoncard{
-        display: flex;
-        flex-direction: row;
-        width: 400px;
-    }
 }
 
 
@@ -340,7 +306,7 @@ html{
     }
 
     .carousel-inner-text-sub{
-        font-size: 7px;
+        font-size: 9px;
         color: #e82c2c;
         font-family: 'Poppins', sans-serif;
     }
@@ -377,9 +343,10 @@ html{
 
     .main-service-title-sub{
         display: flex;
+        text-align: center;
         align-items: center;
         justify-content: center;
-        height: 150px;
+        height: 100px;
     }
 
     .main-service-title-sub p{
@@ -389,46 +356,8 @@ html{
 
 
     /*services----------------------------------------------------------*/
-
     .main-service-title p{
-        padding: 20px 20px 0 20px;
         font-size: 30px;
-        color: rgba(116, 116, 116, 0.75);
-    }
-
-    .card-1,.card-3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card-2,.card-4{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .commoncard{
-        display: flex;
-        flex-direction: row;
-        width: 400px;
-    }
-
-    .card-title{
-        font-size: 18px;
-    }
-
-    .card-text{
-        font-size: 15px;
-    }
-
-    .common-innercard-service{
-        padding-bottom: 40px;
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100vw;
     }
 
 
