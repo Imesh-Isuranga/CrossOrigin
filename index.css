@@ -78,7 +78,7 @@ html{
 /*services----------------------------------------------------------*/
 
 .services{
-    background-image: linear-gradient(to right, rgba(0, 56, 255, 0.16), rgba(100, 142, 255, 0.19));
+    background-image: linear-gradient(to right, rgba(1, 23, 147, 0.16), rgba(5, 9, 19, 0.19));
     width: 100vw;
     display: flex;
     flex-direction: column;
