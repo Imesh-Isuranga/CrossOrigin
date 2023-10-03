@@ -9,7 +9,8 @@ html{
 }
 
 .carousel-inner img{
-    height: 100vh;
+    width: 100vw;
+    height: auto;
 }
 
 .carousel-inner-text{
