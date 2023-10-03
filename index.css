@@ -14,15 +14,55 @@ html{
 }
 
 
-.carousel-inner-text{
-    font-size: 60px;
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
+/*div-1----------------------------------------------------------*/
+.divcaption-1{
+    display: flex;
+    width: 70vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.carousel-caption{
-    height: 100%;
+.left-carousel-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.carousel-inner-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+.carousel-inner-text-sub{
+    font-size: 40px;
+    color: #e82c2c;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right-carousel-1{
+    height: 70%;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.right-carousel-1 p{
+    font-size: 15px;
+}
+
+.right-carousel-1 ul{
+    font-size: 15px;
+}
+
+.contactUsBtn{
+    width: 250px ;
+}
+
+/*----------------------------------------------------------*/
 
 .overlay {
     position: relative;
@@ -41,11 +81,6 @@ html{
 .navbar-brand img{
     width: 100px;
     height: auto;
-}
-
-.btn.btn-info.bg-light.text-primary {
-    width: 200px ;
-    font-size: 20px ;
 }
 
 .reveal{
@@ -159,17 +194,34 @@ html{
         height: auto;
     }
 
+    /*div-1----------------------------------------------------------*/
     .carousel-inner-text{
-        font-size: 40px;
-        color: white;
         font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+    }
+
+    .carousel-inner-text-sub{
+        font-size: 25px;
+        color: #e82c2c;
+        font-family: 'Poppins', sans-serif;
     }
 
 
-    .btn.btn-info.bg-light.text-primary {
+    .right-carousel-1 p{
+        font-size: 10px;
+    }
+
+    .right-carousel-1 ul{
+        font-size: 10px;
+    }
+
+    .contactUsBtn{
         width: 150px ;
-        font-size: 15px ;
     }
+
+    /*----------------------------------------------------------*/
+
+
 
     /*text----------------------------------------------------------*/
 
@@ -215,6 +267,30 @@ html{
 }
 
 @media (max-width: 567px) {
+
+    /*div-1----------------------------------------------------------*/
+    .carousel-inner-text{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+    }
+
+    .carousel-inner-text-sub{
+        font-size: 15px;
+        color: #e82c2c;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .right-carousel-1 p{
+        font-size: 10px;
+    }
+
+    .right-carousel-1 ul{
+        font-size: 10px;
+    }
+
+    /*----------------------------------------------------------*/
+
     .card-1,.card-3{
         display: flex;
         flex-direction: column;
@@ -247,6 +323,48 @@ html{
         height: auto;
     }
 
+    /*div-1----------------------------------------------------------*/
+
+    .divcaption-1{
+        display: flex;
+        width: 70vw;
+        height: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .carousel-inner-text{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 8px;
+    }
+
+    .carousel-inner-text-sub{
+        font-size: 7px;
+        color: #e82c2c;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    .right-carousel-1 p{
+        font-size: 5px;
+    }
+
+    .right-carousel-1 ul{
+        font-size: 5px;
+    }
+
+    .contactUsBtn{
+        width: 90px ;
+    }
+
+    .left-carousel-1 a{
+        font-size: 12px;
+    }
+
+
+    /*----------------------------------------------------------*/
+
     .carousel-inner-text{
         font-size: 20px;
         color: white;
@@ -254,10 +372,6 @@ html{
     }
 
 
-    .btn.btn-info.bg-light.text-primary {
-        width: 90px ;
-        font-size: 9px ;
-    }
 
     /*text----------------------------------------------------------*/
 
